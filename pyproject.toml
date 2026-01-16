@@ -1,0 +1,30 @@
+[project]
+name = "python-complete"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Arturo Humanez"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ruff (>=0.14.13,<0.15.0)",
+    "pre-commit (>=4.5.1,<5.0.0)"
+]
+
+[tool.ruff]
+line-length = 88
+lint.select = ["E", "F", "I"] # Errores, Flakes e Isort (orden de imports)
+fix = true
+
+[tool.ruff.format]
+quote-style = "double"

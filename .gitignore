@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+venv/
+build/
+dist/
+
+# --- Herramientas de Desarrollo ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pre-commit-config.yaml.cache
+
+# --- Bases de Datos ---
+# Ignoramos archivos de bases de datos locales para que no pesen en el repo
+*.sqlite
+*.db
+
+# --- Logs ---
+# Ya que creamos una carpeta de logs, ignoramos su contenido pero NO la carpeta
+logs/*.log
+
+# --- IDEs (VS Code / PyCharm) ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db

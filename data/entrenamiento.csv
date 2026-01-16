@@ -1,0 +1,4 @@
+id,tema,contenido,prioridad
+1,Python,Uso de pathlib para rutas,alta
+2,Agentes,Modelos de lenguaje y prompts,media
+3,Seguridad,Manejo de API Keys,alta

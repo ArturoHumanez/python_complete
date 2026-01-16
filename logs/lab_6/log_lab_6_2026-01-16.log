@@ -1,0 +1,5 @@
+2026-01-16 17:17:40,901 [INFO] Inicio ... procesar_csv
+2026-01-16 17:17:40,901 [INFO] Se procesaron 3 registros exitosamente.
+2026-01-16 17:17:40,901 [INFO] Base de conocimientos guardada en: C:\Proyectos\Python Complete\data\knowledge_base.json
+2026-01-16 17:17:40,901 [INFO] Ejecutando comandos con subprocess...
+2026-01-16 17:17:40,925 [INFO] Tarea de verificación de sistema completada.

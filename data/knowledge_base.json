@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "tema": "Python",
+        "contenido": "Uso de pathlib para rutas",
+        "prioridad": "alta",
+        "procesado_en": "2026-01-16T23:17:40.901467+00:00"
+    },
+    {
+        "id": "2",
+        "tema": "Agentes",
+        "contenido": "Modelos de lenguaje y prompts",
+        "prioridad": "media",
+        "procesado_en": "2026-01-16T23:17:40.901467+00:00"
+    },
+    {
+        "id": "3",
+        "tema": "Seguridad",
+        "contenido": "Manejo de API Keys",
+        "prioridad": "alta",
+        "procesado_en": "2026-01-16T23:17:40.901467+00:00"
+    }
+]
