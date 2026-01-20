@@ -1,0 +1,5 @@
+[
+    {"id": 1, "metadata": "fuente_a", "contenido": "Python es genial"},
+    {"id": 2, "metadata": "fuente_b", "contenido": ""},
+    {"id": "error", "metadata": "fuente_c"}
+]

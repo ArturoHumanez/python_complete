@@ -4,9 +4,7 @@ from concurrent.futures import ProcessPoolExecutor
 
 import httpx
 
-
-def heavy_computation(n):
-    return sum(i * i for i in range(n))
+from src.lab_10.tasks import heavy_computation
 
 
 async def fetch_url(client, url, semaphore):
@@ -22,14 +20,13 @@ async def run_async_fetcher(urls):
         return await asyncio.gather(*tasks)
 
 
-# 3. Comparación Síncrona
 def run_sync_fetcher(urls):
     with httpx.Client() as client:
         return [len(client.get(url).content) for url in urls]
 
 
 if __name__ == "__main__":
-    urls = ["https://www.google.com"] * 20
+    urls = ["https://www.google.com"] * 10
 
     # Medir Síncrono
     start = time.perf_counter()
