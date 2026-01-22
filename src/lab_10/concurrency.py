@@ -26,7 +26,7 @@ def run_sync_fetcher(urls):
 
 
 if __name__ == "__main__":
-    urls = ["https://www.google.com"] * 10
+    urls = ["https://www.google.com"] * 20
 
     # Medir Síncrono
     start = time.perf_counter()
